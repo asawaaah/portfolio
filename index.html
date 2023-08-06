@@ -6,8 +6,111 @@
     <title>Your Page Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<header class="hero-banner">
+    <div class="hero-image">
+        <img src="" alt="photo de moi">
+    </div>
+    <div class="hero-text">
+        <h1>Portfolio de Clotaire Desseaux</h1>
+        <h5>Un projet CodeCademy d'apprentissage</h5>
+        <p>En cours d'apprentissage pour obteniur des compétences de Developpeur Full Stakc, ce mini portofolio me sert a consolider ce que j'ai appris.
+            <br>Pour information je suis né depuis INSERER NB JOUR JAVASCRIPT jours (INSERER NOMBRE JS ans)<br>
+        </p>
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li class="navlink">Expériences</li>
+            <li class="navlink">éducation</li>
+            <li class="navlink">Compétences</li>
+            <li class="navlink">Projets</li>
+            <li class="navlink">Contact</li>
+        </ul>
+    </nav>
+</header>
 <body>
-    <!-- Your page content goes here -->
+    <section class="experiences">
+        <h2>Expériences</h2>
+        <div class="item-experience">
+            <div class="item-headings">
+            <img src="" alt="logo company">
+            <h4>YYYY - YYYY</h4>
+            <h2>Gestionnaire eCommerce</h2>
+            <h3> Company - city, country</h3>
+            </div>
+            <ul>
+                <li>mission 1</li>
+                <li>mission 2</li>
+                <li>mission 3</li>
+                <li>mission 4</li>
+            </ul>
+        </div>
+
+    </section>
+    <section class="education">
+        <h2>éducation</h2>
+        <div class="item-experience">
+            <div class="item-headings">
+            <h4>YYYY - YYYY</h4>
+            <h2>Maitrise Administration des affaires - eBusiness / Métiers du numérique</h2>
+            <h3> School name- city, country</h3>
+            <p class="school-description">
+                Description de la formation
+            </p>
+            </div>
+
+    </section>
+    <section class="competences">
+        <h2>Compétences</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <img class="logo" src="" alt="logo alt">
+                <h3>HTML</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="projets">
+        <h2>Projets</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="" alt="screenshot">
+                <h3>New Look</h3>
+            </div>
+            <div class="card">
+                <img src="" alt="screenshot">
+                <h3>Rotana Hotels</h3>
+            </div>
+            <div class="card">
+                <img src="" alt="screenshot">
+                <h3>2020 Technologies</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+            <p>N'hésitez pas à me contacter en utilisant le formulaire ci-dessous.</p>
+            
+            <form action="#" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+
+                <label for="sujet">Sujet :</label>
+                <input type="text" id="sujet" name="sujet" required><br><br>
+
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+
+    </section>
+    <footer>
+Propulsé par Clotaire Desseaux qui apprend tranquillement
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
