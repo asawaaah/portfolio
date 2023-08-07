@@ -139,19 +139,31 @@
         <h2>Contactez-nous</h2>
             <p>N'hésitez pas à me contacter en utilisant le formulaire ci-dessous.</p>
             
-            <form action="#" method="post">
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" required><br><br>
-
-                <label for="prenom">Prénom :</label>
-                <input type="text" id="prenom" name="prenom" required><br><br>
-
-                <label for="sujet">Sujet :</label>
-                <input type="text" id="sujet" name="sujet" required><br><br>
-
-                <label for="message">Message :</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
+            <form action="#" method="post" class="form-all">
+                <div class="double-field">
+                    <div class="field">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+            
+                    <div class="field">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                </div>
+            
+                <div class="double-field">
+                    <div class="field">
+                        <label for="sujet">Sujet :</label>
+                        <input type="text" id="sujet" name="sujet" required>
+                    </div>
+                </div>
+            
+                <div class="field">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                </div>
+                
                 <button type="submit">Envoyer</button>
             </form>
 

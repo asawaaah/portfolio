@@ -164,6 +164,45 @@ nav li {
     
 }
 
+/* Centrer le formulaire et définir sa largeur */
+form.form-all {
+    width: 60%;
+    
+}
+
+/* Assurer que les labels sont au-dessus des inputs */
+.field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.field input[type="text"] {
+    height: 25px; /* Ajustez la hauteur selon vos préférences */
+}
+.field textarea {
+    height: 120px; /* Ajustez la hauteur selon vos préférences */
+}
+
+/* Faire en sorte que l'input du sujet s'étire sur toute la largeur */
+#sujet,
+#message,
+#nom,
+#prenom {
+    width: 100%;
+}
+
+/* Style pour la section double-field */
+.double-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.field {
+    flex: 1;
+    margin-right: 20px; /* Espacement entre les champs */
+}
+
 /* Media Query pour les écrans plus petits (Mobile) */
 @media (max-width: 768px) {
     .hero-banner {
@@ -179,4 +218,7 @@ nav li {
         min-width: calc(45% - 40px);
         margin-bottom: 40px;
 }
+form.form-all {
+    width: 95%;
+    margin: 0 auto;
 }
