@@ -167,6 +167,7 @@ nav li {
 /* Centrer le formulaire et définir sa largeur */
 form.form-all {
     width: 60%;
+    margin-bottom: 90px;
     
 }
 
@@ -201,6 +202,13 @@ form.form-all {
 .field {
     flex: 1;
     margin-right: 20px; /* Espacement entre les champs */
+}
+
+footer {
+    background-color:#fefae0;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Media Query pour les écrans plus petits (Mobile) */
