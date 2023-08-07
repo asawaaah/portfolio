@@ -15,3 +15,12 @@
 
 console.log(`Nombre de jours passés depuis la naissance : ${daysPassed} jours`);
 console.log(`Nombre d'années passées : ${yearsPassed} ans`);
+
+
+
+const burger = document.querySelector('.burger');
+const navbar = document.querySelector('.navbar');
+
+burger.addEventListener('click', () => {
+    navbar.classList.toggle('show');
+});
