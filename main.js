@@ -18,9 +18,23 @@ console.log(`Nombre d'années passées : ${yearsPassed} ans`);
 
 
 
-const burger = document.querySelector('.burger');
+/*const burger = document.querySelector('.burger');
 const navbar = document.querySelector('.navbar');
 
-burger.addEventListener('click', () => {
+burger.addEventListener('click', function() {
     navbar.classList.toggle('show');
+});*/
+
+
+let projets = document.getElementById("projets");
+
+projets.addEventListener("click", function() {
+    const cards = document.getElementById("cards");
+
+    if (cards.style.display === "flex") {
+        cards.style.display = "none";
+    } else {
+        cards.style.display = "flex";
+    } 
+    
 });
